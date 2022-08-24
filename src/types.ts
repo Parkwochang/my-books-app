@@ -19,7 +19,7 @@ export interface LoginReqType {
   email: string;
   password: string;
 }
-
+//add
 export interface LoginResType {
   token: string;
 }
