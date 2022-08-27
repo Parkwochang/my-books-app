@@ -4,6 +4,9 @@ import { BookReqType, BookResType } from '../types';
 
 const BOOK_API_URL = 'https://api.marktube.tv/v1/book';
 
+/**
+ * @params {} response
+ */
 export default class BookService {
   public static async getBooks(token: string): Promise<BookResType[]> {
     const response = await axios.get<BookResType[]>(BOOK_API_URL, {
