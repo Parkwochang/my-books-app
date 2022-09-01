@@ -34,10 +34,6 @@ export const { success, pending, fail } = createActions(
   options,
 );
 
-/**
- * 로그인에 대한 리듀서입니다.
- * @params {string} handleActions
- */
 const reducer = handleActions<AuthState, any>(
   {
     PENDING: (state) => ({
@@ -62,7 +58,6 @@ const reducer = handleActions<AuthState, any>(
 );
 
 export default reducer;
-
 export const { login, logout } = createActions(
   {
     LOGIN: ({ email, password }: LoginReqType) => ({
