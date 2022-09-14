@@ -90,9 +90,6 @@ function* loginSaga(action: LoginSagaAction) {
   }
 }
 
-/**
- * middleware
- */
 function* logoutSaga() {
   try {
     yield put(booksSuccess(null));
