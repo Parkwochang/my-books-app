@@ -26,6 +26,13 @@ export default class BookService {
     return response.data;
   }
 
+  /**
+   * editbook
+   * @param token
+   * @param bookId
+   * @param book
+   * @returns
+   */
   public static async editBook(
     token: string,
     bookId: number,
