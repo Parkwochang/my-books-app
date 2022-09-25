@@ -5,8 +5,7 @@ import useToken from '../hooks/useToken';
 import SigninContainer from '../containers/SigninContainer';
 
 /**
- * signincontainer를 리턴
- * @returns
+ * @returns signincontainer
  */
 const SigninPage = () => {
   const token = useToken();
