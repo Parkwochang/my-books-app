@@ -5,6 +5,7 @@ import useToken from '../hooks/useToken';
 import SigninContainer from '../containers/SigninContainer';
 
 /**
+ * 커스텀 훅 사용, 세분화
  * @returns signincontainer
  */
 const SigninPage = () => {
