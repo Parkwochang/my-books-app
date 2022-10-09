@@ -78,6 +78,11 @@ interface LoginSagaAction extends AnyAction {
   payload: LoginReqType;
 }
 
+/**
+ *
+ * @param action
+ * yeild??
+ */
 function* loginSaga(action: LoginSagaAction) {
   try {
     yield put(pending());
