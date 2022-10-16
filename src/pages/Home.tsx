@@ -4,6 +4,7 @@ import { Redirect } from 'react-router-dom';
 import useToken from '../hooks/useToken';
 import ListContainer from '../containers/ListContainer';
 
+//home
 const Home: React.FC = () => {
   const token = useToken();
   if (token === null) {
