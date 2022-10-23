@@ -23,3 +23,7 @@ export interface LoginReqType {
 export interface LoginResType {
   token: string;
 }
+
+export interface type {
+  data: number[];
+}
